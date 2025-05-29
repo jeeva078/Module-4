@@ -1,45 +1,29 @@
-# Exp.No:20  
-## SEB - ARITHMETIC CALCULATION USING CLASS
+# Ex.No:4E SEB - ARITHMETIC CALCULATION USING CLASS
 
----
+## AIM  
+To Create a class named pet and method named move which will print the given animal is moving
 
-### AIM  
-To write a Python program to perform addition and division operations using a class. The class should be named `Saveetha`, and the function names should be `setvalues` (to set `a` and `b` values), `add`, and `div`. The program should handle the following cases:  
-- `choice 1` → Perform addition  
-- `choice 2` → Perform division  
-- `choice 0` → Exit  
-- For other choices, print 'Invalid choice'
+## ALGORITHM
 
----
+1. Begin the program.
+2. Define a class pet with a method move():
+- Inside the move() method, take input from the user and store it in the variable x.
+3. Print a message that the pet (represented by x) is moving.
+4. Print the value of x.
+5. Call the move() method on the pet class.
+6.Terminate the program.
 
-### ALGORITHM
-
-1. Begin the program.  
-2. Create a class `Saveetha`.  
-3. Define the following methods inside the `Saveetha` class:  
-   - `__init__(self)`: Initializes `a` and `b` to zero.  
-   - `setvalues(self, a, b)`: Sets the values of `a` and `b`.  
-   - `add(self)`: Performs the addition operation.  
-   - `div(self)`: Performs the division operation. If `b` is zero, returns an error message for division by zero.  
-4. Create a `main()` function.  
-5. Take input from the user for the values of `a` and `b` using `setvalues(a, b)` method.  
-6. Use a `while True` loop to repeatedly ask the user for a choice:  
-   - If the choice is 1, call the `add()` method and print the result.  
-   - If the choice is 2, call the `div()` method and print the result. Handle division by zero.  
-   - If the choice is 0, print "Exiting!" and exit the loop.  
-   - If the choice is not 1, 2, or 0, print "Invalid choice".  
-7. Terminate the program.
-
----
-
-### PROGRAM
-
+## PROGRAM
 ```
-
-
-
+class pet:
+    def move():
+        x=input()
+        print(f"{x} is moving!")
+        print(x)
+pet.move()
 ```
+## OUTPUT
+![Screenshot 2025-04-27 163819](https://github.com/user-attachments/assets/52767058-aa5b-4743-aabe-55aae3024952)
 
-### OUTPUT
-
-### RESULT
+## RESULT
+Thus a class named pet and method named move which will print the given animal is moving has been successfully implemented.
